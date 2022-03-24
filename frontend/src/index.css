@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #202020;
+}
+
+.App{
+  padding-top: 100px;
+  max-width: 550px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.options{
+  display: flex;
+  justify-content: space-between;
+}
+
+.dictionary{
+  display: flex;
+  justify-content: space-between;
+}
+
+.dictionary__list select{
+  max-width: 181px;
+  width: 100%;
+}
+
+.dictionary__load {
+  position: relative;
+  overflow: hidden;
+}
+
+.dictionary__load input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  opacity: 0.0;
+}
+
+.words{
+  margin: 50px 0;
+  text-align: center;
+  min-height: 70px;
+}
+
+.words__original{
+  margin-bottom: 15px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-around;
+}
+
+
